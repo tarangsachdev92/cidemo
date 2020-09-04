@@ -1,0 +1,22 @@
+/
+
+CREATE TRIGGER UPDATE_PROPERTY_PROCESS_STATUS_AFTER_INSERT AFTER INSERT ON ContactProperties
+
+FOR EACH ROW
+ BEGIN
+  DECLARE PStatus INT(10);
+  DECLARE Agent_Type INT(10);
+
+  SELECT AgentType INTO Agent_Type FROM Properties WHERE PID=NEW.PID;
+
+  SET PStatus = get_property_process_status(NEW.PID);
+
+  IF Agent_Type=2 THEN
+   SET PStatus ='1';
+  END IF;   
+
+  UPDATE Properties SET Property_Process_Status=PStatus WHERE PID=NEW.PID;  
+ END;
+
+
+/

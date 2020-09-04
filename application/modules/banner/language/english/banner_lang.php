@@ -1,0 +1,80 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['add_form_fields'] = 'Add Form Fields';
+$lang['title'] = 'Title';
+$lang['city'] = 'City';
+$lang['country'] = 'Country';
+$lang['state'] = 'State';
+$lang['description'] = 'Description';
+$lang['status'] = 'Status';
+$lang['inactive'] = 'Inactive';
+$lang['active'] = 'Active';
+$lang['submit'] = 'Submit';
+$lang['sample_label'] = 'Sample site es';
+$lang['please_select'] = 'Please Select';
+$lang['save'] = 'Save';
+$lang['cancel'] = 'Cancel';
+$lang['banner_language_change_error'] = 'Page you are looking for does not exist or translation for this page does not exist';
+$lang['add_banner'] = 'Add Banner';
+$lang['edit_banner'] = 'Edit Banner';
+$lang['delete_confirm'] = 'Are you sure want to delete this record?';
+$lang['delete_success'] = 'Successfully deleted record';
+$lang['sr_no'] = 'Sr No';
+$lang['last_modified'] = 'Last Modified';
+$lang['actions'] = 'Actions';
+$lang['edit'] = 'Edit';
+$lang['delete'] = 'Delete';
+$lang['reset_button'] = 'Reset';
+$lang['banner_list'] = 'Banner List';
+$lang['section'] = 'Section';
+$lang['page'] = 'Page';
+$lang['position'] = 'Position';
+$lang['type'] = 'Type';
+$lang['image'] = 'Image';
+$lang['link'] = 'Link/URL';
+$lang['code'] = 'Embedded code';
+$lang['order'] = 'Order';
+$lang['home-section'] = 'Home Banner';
+$lang['ad-section'] = 'Ad banner';
+$lang['view-banner'] = 'View Banner/Ad';
+$lang['active-all'] = 'Active All';
+$lang['inactive-all'] = 'Inactive All';
+$lang['select'] = 'Select';
+
+//paging variables
+$lang['no_record_found'] = 'No Records Found';
+$lang['btn-search'] = 'Search';
+$lang['btn-reset'] = 'Reset';
+$lang['btn-save'] = 'Save';
+$lang['btn-cancel'] = 'Cancel';
+$lang['search-by'] = 'Search by';
+
+$lang['msg-search-req'] = 'Please enter search keyword.';
+$lang['msg-search-sel-req'] = 'Please Select search option.';
+$lang['msg-url-invalid'] = "Invalid URL";
+$lang['msg-add-success'] = 'Banner has been added successfully';
+$lang['msg-update-success'] = 'Banner has been updated successfully';
+$lang['msg_already_exists'] = 'Title already exists!';
+$lang['permission-not-allowed'] = 'You do not have permission to access this page';
+$lang['visited-date'] = 'Visited On';
+$lang['ip'] = 'IP address';
+$lang['user-id'] = 'User-id';
+$lang['ad-id'] = 'Advertisement id';
+$lang['search-term'] = 'Search Term';
+$lang['btn-filter'] = 'Apply Filter';
+$lang['start-date'] = 'Start Date';
+$lang['end-date'] = 'End Date ';
+$lang['user-id'] = 'User-id ';
+
+$lang['ad-id'] = 'Advertisement id ';
+$lang['apply-filter'] = 'Apply Filter';
+$lang['reset-filter'] = 'Reset Filter ';
+
+$lang['msg-date-req'] = 'Please enter startdate and enddate both.';
+$lang['msg-wrong-date-req'] = 'Please enter correct dates.';
+$lang['visitor-list'] = 'visitor list';
+$lang['ad-title'] = 'Advertise Title';
+$lang['no-banner-translation'] = 'No Banner/Ad translation added for this language';
+$lang['banner-active-success'] = "Banner active successfully";
+$lang['banner-inactive-success'] = "Banner inactive successfully";
+
+?>

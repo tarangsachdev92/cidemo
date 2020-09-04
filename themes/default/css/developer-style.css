@@ -1,0 +1,30 @@
+.warning-msg, .validation_error p{
+    color: #a94442;
+    font-size: 11px;
+}
+.warning-msg p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/*.has-error .form-control{
+    border-color: #d8dde1;
+
+}
+.has-error .form-control:focus{
+    border-color: #d8dde1;
+}*/
+.close-icon{
+    float: right;
+    margin-top: 5px;
+}
+.wht-fnt{
+    color: #FFF;
+}
+a.wht-fnt:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+.alert{
+    margin-bottom: 0px !important;
+}

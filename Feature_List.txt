@@ -1,0 +1,11 @@
+This is a CI Demo Application Core Module Development Project
+
+Features
+User Management
+Group Management
+Role Management
+URL Management
+Module Management
+
+CMS Managment
+Menu Navigation Management
